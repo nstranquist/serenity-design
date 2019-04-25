@@ -1,0 +1,14 @@
+.page-footer {
+    background-color: transparent;
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.page-footer h1 {
+    margin-bottom: 1rem;
+}
+.page-footer p {
+    font-size: 1.3rem;
+}
