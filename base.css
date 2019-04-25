@@ -35,8 +35,17 @@ html {
 body {
    font-family: sans-serif;
    line-height: 1.5;
+   font-size: 1.1rem;
    background: lightgray;
+   color: var(--white);
 }
 main {
    display: block;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
 }
