@@ -50,8 +50,41 @@
     border-bottom: none !important;
     background-color: var(--purple-highlight);
 }
-/* left-nav */
-.left-nav {}
 
-/* right-nav */
-.right-nav {}
+@media only screen and (max-width: 1300px) {
+    .navbar {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .nav-primary {
+
+    }
+}
+@media only screen and (max-width: 990px) {
+    .navbar {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 778px) {
+    .page-header {
+        height: 100%;
+    }
+    .navbar {
+        display: block;
+    }
+    .nav-primary {
+        display: block;
+    }
+    .nav-secondary {
+        display: none;
+    }
+    .nav-list li {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .nav-list li a {
+        padding: 0;
+        margin: 0;
+    }
+}
