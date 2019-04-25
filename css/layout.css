@@ -1,0 +1,10 @@
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple-base); /* for header/masthead/footer bg */
+}
+.page-header {}
+.page-masthead {}
+.page-main-rankings {}
+.page-contact {}
+.page-footer {}

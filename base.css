@@ -1,3 +1,11 @@
+/* imports (for dev, not prod) */
+@import 'css/layout.css';
+@import 'css/nav.css';
+@import 'css/masthead.css';
+@import 'css/rankings.css';
+@import 'css/contact.css';
+@import 'css/footer.css';
+
 /* variables */
 :root {
     /* base colors */
