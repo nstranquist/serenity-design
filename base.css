@@ -36,7 +36,6 @@ body {
    font-family: sans-serif;
    line-height: 1.5;
    font-size: 1.1rem;
-   background: lightgray;
    color: var(--white);
 }
 main {

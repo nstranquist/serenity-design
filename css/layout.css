@@ -1,20 +1,21 @@
 .page-layout {
     display: flex;
     flex-direction: column;
-    background-color: var(--purple-base); /* for header/masthead/footer bg */
+    /*background-color: var(--purple-base); /* for header/masthead/footer bg */
+    /*background-color: #3700B3;*/
+    background-color: #6200EE;
 }
-.page-header {}
+/*.page-header {}
 .page-masthead {}
 .page-main-rankings {}
 .page-contact {}
-.page-footer {}
+.page-footer {}*/
 
 .content-section {
     background-color: var(--white);
+    color: var(--black);
     min-height: 200px;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
     padding-top: 5rem;;
     padding-bottom: 5rem;
 }

@@ -1,0 +1,75 @@
+.page-main-rankings {
+    position: relative;  /* to overlap with masthead */
+    margin-top: -20vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    /*border-top-left-radius: 5%;
+    border-top-right-radius: 5%;*/
+    border-radius: 5%;
+    border: 8px solid var(--pink);
+    background-color: var(--offwhite);
+    color: var(--black);
+    /* box shadow? */
+}
+/* heading styles */
+.page-main-rankings h1 {
+    position: relative;  /* to move up with border */;
+    margin-top: -8rem;
+    margin-left: 33%;
+    margin-right: 33%;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--pink);
+    color: var(--offwhite);
+}
+/* Rankings List / Items styles */
+.rankings-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+}
+.rankings-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "number name grade"
+        "show-more show-more show-more";
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    /* box shadow? */
+    box-shadow: -2px 2px 5px lightgray;
+}
+.rankings-item:last-child {
+    border-bottom: none;
+}
+.rank-number {
+    grid-area: "number";
+    padding: 1rem;
+}
+.rank-name {
+    grid-area: "name";
+    text-align: left;
+    padding: 1rem;
+    /*font-weight: bold;*/
+}
+.rank-grade {
+    grid-area: "grade";
+    padding: 1rem;
+}
+.btn-toggle-more {
+    grid-area: "show-more";
+    grid-column: 1 / span 3;
+    color: black;
+}
+@media only screen and (min-width: 900px) {
+    /*.rankings-item {
+        margin-left: 10%;
+        margin-right: 10%;
+    }*/
+}
