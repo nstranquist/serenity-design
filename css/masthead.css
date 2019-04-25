@@ -1,0 +1,24 @@
+.page-masthead {
+    height: 80vh;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+/* headings and text styles */
+.mast-header {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.mast-description {
+    font-style: italic;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+/*.btn-get-started {
+    font-size: 1.5rem;
+    background-color: var(--pink);
+    padding: .5rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+}*/
