@@ -1,10 +1,18 @@
 /* variables */
 :root {
-   --white: whitesmoke;
-   --gray: gray;
-   --lgray: lightgray;
-   --black: black;
-}
+    /* base colors */
+    --white: #FFFFFF;
+    --black: #000000;
+    --offwhite: whitesmoke;
+    --gray: lightgray;
+    /* primary & secondary colors */
+    --purple-base: #5100E8;
+    --purple-highlight: #C500E8;
+    --pink: #E80097;
+    --orange: #E85100;
+    --blue: #0023E8;
+    --ltgreen: #97E800;
+    }
 /* reset styles */
 html {
    box-sizing: border-box;
@@ -19,6 +27,7 @@ html {
 body {
    font-family: sans-serif;
    line-height: 1.5;
+   background: lightgray;
 }
 main {
    display: block;
