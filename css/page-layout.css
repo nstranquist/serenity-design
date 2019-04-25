@@ -12,7 +12,7 @@
 .page-footer {}*/
 
 .content-section {
-    background-color: var(--white);
+    background-color: var(--offwhite);
     color: var(--black);
     min-height: 200px;
     text-align: center;
