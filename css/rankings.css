@@ -3,6 +3,8 @@
     margin-top: -20vh;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: -10%;
+    padding-bottom: 5rem;
     /*border-top-left-radius: 5%;
     border-top-right-radius: 5%;*/
     border-radius: 5%;
@@ -12,8 +14,8 @@
     /* box shadow? */
 }
 /* heading styles */
-.page-main-rankings h1 {
-    position: relative;  /* to move up with border */;
+h1.float-heading-circle {
+    position: relative;
     margin-top: -8rem;
     margin-left: 33%;
     margin-right: 33%;
