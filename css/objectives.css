@@ -8,14 +8,7 @@
     margin-bottom: 2rem;
     font-size: 2rem;
 }
-.pink-underline {
-    border-bottom: 3px solid var(--pink);
-    padding-left: .75rem;
-    padding-right: .75rem;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    padding-bottom: .3rem;
-}
+
 /* Objectives List styles */
 /*.objectives-list {
     display: grid;

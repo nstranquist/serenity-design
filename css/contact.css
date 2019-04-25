@@ -1,3 +1,34 @@
 .page-contact {
     background-color: var(--offwhite);
+    color: var(--black);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.page-contact h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.page-contact form {
+    width: 80%;
+    margin-left: 10%;
+}
+.page-contact form > * {
+    width: 80%;
+    margin-left: 10%;
+}
+.page-contact form label, .page-contact form button {
+    font-size: 1.3rem;
+}
+.page-contact form input, .page-contact form textarea {
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .page-contact form {
+        width: 40%;
+        margin-left: 30%;
+    }
 }
