@@ -1,0 +1,28 @@
+serenity colors:
+(material):
+dark purple 1: #    
+lpurple highlight: #6200EE
+l2purple highlight: #BB86FC
+red: #B00020
+red2: #FF0266
+white: #FFFFFF
+black: #000
+
+/*Deep Blue: #0335FF
+Purple Highlight: #*/
+
+## MOST RELEVANT:
+Deeb Blue: #3402EE
+Purple: #AB02EE
+/* Blue option 2: #0245EE
+   Pink option: #EE02BB
+   Red option: #EE3502
+   light green: #BBEE02
+*/
+## RELEVANT: ALTERNATE SET: (similar to above)
+dkPurple prim: #5100E8
+ltgreen: #97E800
+purple: #C500E8
+blue: #0023E8
+pink: #E80097
+orange: #E85100
